@@ -128,11 +128,16 @@
 }
 
 .intro-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
    position: relative;
-    width: 554px;
-    height: 360px;
+   margin: auto;
+   padding: 10px;
+    max-width: 655px;
+    max-height: 360px;
     transform: translate(850px,0);
-    top:-25px;
+    top:-400px;
 }
 
 .section {
