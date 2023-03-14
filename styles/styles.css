@@ -8,7 +8,8 @@
 
 
 .page {
-    
+    font-family: 'Open Sans'  Arial, Helvetica, sans-serif;
+    font-weight: 400;
     margin: 0;
     font-size: 16px;
     display: flex;
@@ -17,7 +18,12 @@
 
 .page-grey {
     padding-bottom: 12px;
-    background-color: #F6F2F2
+   background-color: #f6f2f2
+}
+
+.page__header__grey {
+    padding-top: 38px;
+    background-color: #f6f2f2
 }
 
 /*header*/
@@ -34,7 +40,7 @@
    background: #000000;
 }
 
-.header-navigation {
+.header__navigation {
     display: flex;
     flex-wrap: wrap;
 }
@@ -49,19 +55,19 @@
     margin: 0;
 }
 
-.menu-item {
+.menu__item {
     display: flex;
     align-items: stretch;
     justify-content: center;
     min-height: 90px;
 }
 
-.menu-item:hover {
+.menu__item:hover {
     background-color: #FF3F40;
 }
 
-.menu-link {
-    font-family:' Open Sans ',   Arial, Helvetica, sans-serif;
+.menu__link {
+    font-family:'Open Sans',Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     padding: 0  30px;
@@ -74,7 +80,7 @@
 
 /*intro*/
 
-.page-content {
+.page__content {
     flex-grow: 1;
 }
 
@@ -83,25 +89,32 @@
     padding-bottom: 94px;
 }
 
-.intro-content {
+.intro__content {
     position: relative;
-    bottom: 12px;
-    width: 616px;
+    top:-12px;
+    width: 100%;
+    max-width: 616px;
     margin-bottom: 20px;
-    margin-right: 74px;
+
 }
 
-.intro-heading {
-    font-family:' Open Sans ',   Arial, Helvetica, sans-serif ;
+.intro__heading {
+    font-family:'Open Sans',Arial, Helvetica, sans-serif ;
     margin: 0;
+    margin-bottom: 32px;
     font-size: 60px;
     line-height: 72px;
-    font-weight: 900;
+    font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
 
-.intro-text {
+
+.intro__heading__big {
+    letter-spacing: 6px;
+}
+
+.intro__text {
     margin: 0;
     line-height: 28px;
     max-width: 520px;
@@ -109,7 +122,7 @@
 }
 
 .action-button {
-    font-family:' Open Sans ',   Arial, Helvetica, sans-serif ;
+    font-family:'Open Sans',Arial, Helvetica, sans-serif ;
     box-sizing: border-box; 
     display: inline-block;
     width: 228px;
@@ -120,24 +133,21 @@
     border-radius: 6px;
 }
 
-.button-red {
+.action__button__red {
     font-size: 18px;
     font-weight: 700;
     color: #FFFFFF;
     background-color: #FF2D2D;
 }
 
-.intro-image {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-   position: relative;
-   margin: auto;
-   padding: 10px;
-    max-width: 655px;
-    max-height: 360px;
-    transform: translate(850px,0);
-    top:-400px;
+.intro__image {
+   
+  
+    max-width: 551px;
+    height:auto;
+    box-shadow: -2.2px  -13.8px 73px
+    rgba(0,0,0,0.29);
+    
 }
 
 .section {
