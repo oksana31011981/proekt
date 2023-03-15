@@ -170,8 +170,8 @@
 
 /*services*/
 
-.services{
-    padding: 108px;
+.services {
+    padding-top:25px ;
     padding-bottom: 52px;
     border-bottom: 1px solid #ececec;
 }
@@ -216,16 +216,16 @@
     margin-top: 36px;
 }
 
-/*service*/
+/*uslugi*/
 
-.service {
+.uslugi {
     flex: 1 1 288px;
     width: 288px;
     margin-left: 16px;
     margin-bottom: 50px;
 }
 
-.service__heading {
+.uslugi__heading {
     font-family:'Open Sans',Arial, Helvetica, sans-serif ; 
     margin: 0;
     letter-spacing: 1.5px;
@@ -234,36 +234,36 @@
     margin-bottom: 12px;
 }
 
-.service__heading::before {
+.uslugi__heading::before {
     display: block;
     width: 41px;
     height: 41px;
     margin-bottom: 22px;
 }
 
-.service__text {
+.uslugi__text {
     font-family:'Open Sans',Arial, Helvetica, sans-serif ;
     margin: 0;
     line-height: 28px;
 }
 
 
-.service__heading_manage::before {
+.uslugi__heading_manage::before {
     content: url('../images/service-1.png');
 }
 
 
-.service__heading_ux::before {
+.uslugi__heading_ux::before {
     content: url('../images/service-2.png')
 }
 
 
-.service__heading_logo::before {
+.uslugi__heading_logo::before {
     content: url('../images/service-3.png')
 }
 
 
-.service__heading_anim::before {
+.uslugi__heading_anim::before {
     content: url('../images/service-4.png')
 }
 
