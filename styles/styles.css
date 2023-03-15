@@ -21,7 +21,7 @@
    background-color: #f6f2f2
 }
 
-.page__header__grey {
+.page__intro_grey {
     padding-top: 38px;
     background-color: #f6f2f2
 }
@@ -84,6 +84,12 @@
     flex-grow: 1;
 }
 
+
+
+.page-intro_grey{
+    background-color: #f6f2f2 
+}
+
 .intro {
     padding-top: 102px;
     padding-bottom: 94px;
@@ -110,7 +116,7 @@
 }
 
 
-.intro__heading__big {
+.intro__heading_big {
     letter-spacing: 6px;
 }
 
@@ -133,7 +139,7 @@
     border-radius: 6px;
 }
 
-.action__button__red {
+.action-button_red {
     font-size: 18px;
     font-weight: 700;
     color: #FFFFFF;
@@ -160,3 +166,112 @@
     padding-left: 1vw;
     padding-right: 1vw;
 }
+
+
+/*services*/
+
+.services{
+    padding: 108px;
+    padding-bottom: 52px;
+    border-bottom: 1px solid #ececec;
+}
+
+
+.services__lead {
+    flex: 1 1 502px;
+    max-width: 502px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.services__heading {
+    font-family:'Open Sans',Arial, Helvetica, sans-serif ;
+    position: relative;
+    bottom: 6px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.services__text {
+    font-family:'Open Sans',Arial, Helvetica, sans-serif ;
+    margin: 0;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.action-button_white {
+    font-family:'Open Sans',Arial, Helvetica, sans-serif ;
+    font-size: 18px;
+    color: #FF2D2D;
+    background-color: #FFFFFF;
+    border: 2px solid #FF0000;
+}
+
+.services__blocks {
+    flex: 1 1;
+    max-width: 610px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 36px;
+}
+
+/*service*/
+
+.service {
+    flex: 1 1 288px;
+    width: 288px;
+    margin-left: 16px;
+    margin-bottom: 50px;
+}
+
+.service__heading {
+    font-family:'Open Sans',Arial, Helvetica, sans-serif ; 
+    margin: 0;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.service__heading::before {
+    display: block;
+    width: 41px;
+    height: 41px;
+    margin-bottom: 22px;
+}
+
+.service__text {
+    font-family:'Open Sans',Arial, Helvetica, sans-serif ;
+    margin: 0;
+    line-height: 28px;
+}
+
+
+.service__heading_manage::before {
+    content: url('../images/service-1.png');
+}
+
+
+.service__heading_ux::before {
+    content: url('../images/service-2.png')
+}
+
+
+.service__heading_logo::before {
+    content: url('../images/service-3.png')
+}
+
+
+.service__heading_anim::before {
+    content: url('../images/service-4.png')
+}
+
+
+
+
+
+
+
+
+
