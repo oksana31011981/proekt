@@ -18,7 +18,7 @@
     margin: 0;
     font-weight: 700;
     line-height: 56px;
-    text-transform: uppercase;
+    
     font-size: 42px;
 }
 
@@ -41,6 +41,10 @@
 
 .page__header_grey {
     padding-top: 38px;
+    background-color: #f6f2f2
+}
+
+.page__intro_grey {
     background-color: #f6f2f2
 }
 
@@ -115,10 +119,11 @@
 
 .intro__content {
     position: relative;
-    bottom:12px;
+    top:-12px;
+    width: 100%;
     max-width: 616px;
     margin-bottom: 20px;
-    margin-right: 74px;
+    
 
 }
 
@@ -167,7 +172,7 @@
 .intro__image {
    
   
-    max-width: 655px;
+    max-width: 551px;
     height:auto;
     box-shadow: -2.2px  -13.8px 73px
     rgba(0,0,0,0.29);
@@ -606,7 +611,7 @@
     padding-top: 92px;
     padding-bottom: 110px;
     overflow: hidden;
-    grid-template-columns: 1fr 732px 108px 412px;
+    grid-template-columns: 1fr 732px 108px 718px;
     grid-template-rows: repeat(2, auto);
 }
 
