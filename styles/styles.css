@@ -1,3 +1,8 @@
+:root  {
+--primary-bg-color:#2d2d2d
+}
+
+
 *,
 *::after,
 *::before {
@@ -32,6 +37,7 @@
     font-size: 16px;
     display: flex;
     flex-direction: column;
+   
 }
 
 .page__header {
@@ -171,7 +177,7 @@
 
 .intro__image {
    
-  
+  width: 100%;
     max-width: 551px;
     height:auto;
     box-shadow: -2.2px  -13.8px 73px
@@ -387,7 +393,9 @@
 }
 
 .team__heading {
+    font-family:'Open  Sans',Arial, Helvetica, sans-serif ;
     margin-bottom: 24px;
+    font-size: 42px;
 }
 
 .team__text {
@@ -534,7 +542,7 @@
     display: block;
     width: 100%;
     max-width: 100%;
-    background-color: #2d2d2d;
+    background-color: var(--primary-bg-color);
     padding-top: 124px;
     padding-bottom: 140px;
     margin-top: 50px;
@@ -611,13 +619,13 @@
     padding-top: 92px;
     padding-bottom: 110px;
     overflow: hidden;
-    grid-template-columns: 1fr 732px 108px 718px;
+    grid-template-columns: 1fr 732px 108px 370px 1fr;
     grid-template-rows: repeat(2, auto);
 }
 
 .feedback-contacts::after {
     height: 100%;
-    background-color: #2d2d2d2d;
+    background-color: var(--primary-bg-color);
     content: '';
     grid-column:  5 / 6;
     grid-row: 2 / 3;
@@ -736,15 +744,16 @@
 .contacts {
     box-sizing: border-box;
     position: relative;
-    background-color: #2d2d2d;
+    background-color: var(--primary-bg-color);
     padding: 126px 52px 126px 78px;
     min-height: 486px;
     min-width: 580px;
     grid-column: 4 / 5;
     grid-row:  2 / 3;
 }
-.contacts__heading {
-    color: #e0e0e0; 
+.contacts__heading  {
+    font-family:'Open  Sans',Arial, Helvetica, sans-serif ;
+    color: #FFFFFF; 
     margin-bottom: 18px;
     font-size: 42px;
 }
@@ -777,7 +786,7 @@
 /*Footer*/
 
 .footer{
-    background-color: #2d2d2d ;
+    background-color: var(--primary-bg-color) ;
     padding: 0 1vw;
 }
 
@@ -786,7 +795,7 @@
     padding: 20px 0 0;
     color: #B8B8B8;
     min-height: 112px;
-    background-color: #2d2d2d;
+    background-color: var(--primary-bg-color);
     align-items: center;
 
 }
@@ -835,7 +844,8 @@
         grid-row: 1 / 2;
     }
     .feedback__body {
-        margin-right: 0;
+        margin-right: auto;
+        margin-left: auto;
     }
     .feedback-contacts {
         flex-wrap: wrap;
@@ -858,6 +868,16 @@
     }
     
 }
+
+@media screen  and (max-width: 1024px) {
+    .feedback__name, 
+    .feedback__mail {
+     width: 100%;
+     margin-top: 10px;
+    }
+    }
+
+
 
 @media screen  and (max-width: 908px) {
     .services__lead,
