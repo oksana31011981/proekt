@@ -135,8 +135,16 @@ html {
 }
 
 .intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding-top: 102px;
     padding-bottom: 94px;
+}
+
+.intro section {
+    display: flex;
+    flex-direction: column;
 }
 
 .intro__content {
@@ -202,7 +210,6 @@ html {
 }
 
 .section {
-    display: flex;
     justify-content: space-between;
     align-items: flex-start;
     max-width: 1250px;
@@ -220,6 +227,12 @@ html {
     padding-top:25px ;
     padding-bottom: 52px;
     border-bottom: 1px solid #ececec;
+}
+
+.section-services {
+    display: flex;
+     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
@@ -561,6 +574,12 @@ html {
     padding-top: 124px;
     padding-bottom: 140px;
     margin-top: 50px;
+}
+
+.section .subscribe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .subscribe__header {
@@ -1009,6 +1028,17 @@ html {
     
  }
 
+ @media screen and (max-width: 350px) {
+    .services__lead {
+        width: 100%;
+        max-width: 100%;
+    }
+    .services__blocks {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
  .popup-menu {
     position: relative;
     align-self: center;
@@ -1069,7 +1099,7 @@ html {
     text-transform: uppercase;
  }
 
- @media screen and (max-width:767px) {
+ /*@media screen and (max-width:767px) {
     .header__toggle {
         display: inline-block;
     }
@@ -1087,7 +1117,7 @@ html {
         top: 119px;
 
     }
- }
+ }*/
 
  
 
