@@ -140,6 +140,7 @@ html {
     flex-wrap: wrap;
     padding-top: 102px;
     padding-bottom: 94px;
+    justify-content: space-between;
 }
 
 .intro section {
@@ -210,8 +211,6 @@ html {
 }
 
 .section {
-    justify-content: space-between;
-    align-items: flex-start;
     max-width: 1250px;
     margin: 0 auto;
     padding-left: 1vw;
@@ -233,6 +232,7 @@ html {
     display: flex;
      flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
@@ -913,6 +913,7 @@ html {
     .services__blocks {
         width: 100%;
         max-width: 100%;
+        margin: 0 auto;
     }
     .subscribe__heading {
         line-height: 50px;
@@ -994,8 +995,39 @@ html {
      }
      .intro__heading {
         font-size: 40px;
+        word-wrap: break-word;
+     }
+     .section-heading {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        margin-bottom: 20px;
+     }
+     .subscribe__text {
+       margin-bottom: 20px;
+     }
+     .services__heading {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+     }
+     .action-button_white {
+        width: 100%;
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        margin-bottom: 60px;
+        align-items: center;
+     }
+     .subscribe {
+        padding-top: 54px;
+        padding-bottom: 54px;
+        margin-top: 40px;
      }
  }
+
+ 
 
  /*Popup-menu */
  
