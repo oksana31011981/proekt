@@ -825,6 +825,8 @@ html {
 }
 
 .footer__content {
+    display: flex;
+    justify-content: space-between;
     box-sizing: border-box;
     padding: 20px 0 0;
     color: #B8B8B8;
@@ -845,8 +847,11 @@ html {
 }
 
 .footer__social-links > .footer__link:not(:last-child) {
+   
     margin-right: 18px;
 }
+
+
 
 /*Responsive */
 @media  screen and (max-width: 1286px) {
@@ -1001,7 +1006,7 @@ html {
         display: flex;
         justify-content: center;
         text-align: center;
-        font-size: 10px;
+        font-size: 42px;
         margin-bottom: 20px;
      }
      .subscribe__text {
@@ -1011,6 +1016,7 @@ html {
         display: flex;
         justify-content: center;
         text-align: center;
+        font-size: 30px;
      }
      .action-button_white {
         width: 100%;
